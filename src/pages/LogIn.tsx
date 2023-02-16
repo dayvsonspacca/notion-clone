@@ -6,11 +6,11 @@ function LogIn() {
   return (
     <div className='bg-primary h-screen font-sans'>
       <Header />
-      <div className='flex items-center justify-center h-96'>
+      <div className='flex items-center flex-col justify-center h-full'>
         <LoginForm />
-      </div>
-      <div className='flex items-end justify-center'>
-        <p>Made by <a className='text-blue-500 underline font-bold' href="https://github.com/dayvsonspacca">dayvsonspacca</a></p> 
+        <div className='flex items-end justify-center mt-14'>
+          <p>Made by <a className='text-blue-500 underline font-bold' href="https://github.com/dayvsonspacca">dayvsonspacca</a></p>
+        </div>
       </div>
     </div>
   );
