@@ -3,7 +3,6 @@ import { createBrowserRouter } from 'react-router-dom';
 
 // PAGES
 import LogIn from '../pages/LogIn';
-import MyNotions from '../pages/MyNotions';
 import SignUp from '../pages/SignUp';
 
 const routes = createBrowserRouter([
@@ -15,10 +14,6 @@ const routes = createBrowserRouter([
         path: "/login",
         element: <LogIn />
     },
-    {
-        path: "/notion/:id",
-        element: <MyNotions />
-    }
 ]);
 
 export default routes;
